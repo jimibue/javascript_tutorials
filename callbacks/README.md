@@ -2,6 +2,7 @@
 >tl;dr A callback function is when we pass a function as an argument into another function
 
 ## Why use Callbacks?
+>tl;dr Because you have to
 1. It is really handy to be able to pass a function to function example array_iterators
 2. Javascript is single threaded(can only do one thing at a time), and web pages are highly asnyc( code does not exucute from top to bottom) and event driven(clicks, http requests, ajax calls)
    example: a user clicks a button to get information from a server.  
