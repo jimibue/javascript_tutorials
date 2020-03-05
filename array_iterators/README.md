@@ -56,4 +56,33 @@
   }) 
 ```
 
+### Quick Examples
+```ruby
+export const numberArray = [1,2,3,4]
+
+export const doubleArray = numberArray.map( number => {
+  return number * 2
+})
+
+export const evensOnlyArray = numberArray.filter( number => {
+  return number % 2 === 0
+})
+
+export const arraySum = numberArray.reduce( (accumulator, current_num)  => {
+  return accumulator + current_num
+})
+
+export const allNumbersGreaterThanZero = numberArray.every( number => {
+  return number > 0
+})
+
+export const someNumbersAreOdd = numberArray.some( number => {
+  return number % 2 !== 0
+})
+
+export const evensOnlyAndDoubleArray = numberArray.filter( number => {
+  return number % 2 == 0
+}).map( number => number * 2 ) //return not needed in one line arrow function
+```
+
   
